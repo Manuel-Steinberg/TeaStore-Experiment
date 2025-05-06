@@ -1,0 +1,60 @@
+services:
+  auth:
+    environment:
+      JAVA_OPTS: >
+        -javaagent:/agent/joularjx.jar
+        -Djoularjx.dumpOnExit=true
+        -Djoularjx.dumpFile=/agent/logs/auth.txt
+        -Djoularjx.includes=tools.descartes.teastore.*
+    volumes:
+      - ../shared-libs/joularjx.jar:/agent/joularjx.jar
+      - ./joularjx-logs:/agent/logs
+      - ./joularjx-logs/config.properties:/agent/config.properties
+
+  image:
+    environment:
+      JAVA_OPTS: >
+        -javaagent:/agent/joularjx.jar
+        -Djoularjx.dumpOnExit=true
+        -Djoularjx.dumpFile=/agent/logs/image.txt
+        -Djoularjx.includes=tools.descartes.teastore.*
+    volumes:
+      - ../shared-libs/joularjx.jar:/agent/joularjx.jar
+      - ./joularjx-logs:/agent/logs
+      - ./joularjx-logs/config.properties:/agent/config.properties
+
+  persistence:
+    environment:
+      JAVA_OPTS: >
+        -javaagent:/agent/joularjx.jar
+        -Djoularjx.dumpOnExit=true
+        -Djoularjx.dumpFile=/agent/logs/persistence.txt
+        -Djoularjx.includes=tools.descartes.teastore.*
+    volumes:
+      - ../shared-libs/joularjx.jar:/agent/joularjx.jar
+      - ./joularjx-logs:/agent/logs
+      - ./joularjx-logs/config.properties:/agent/config.properties
+
+  recommender:
+    environment:
+      JAVA_OPTS: >
+        -javaagent:/agent/joularjx.jar
+        -Djoularjx.dumpOnExit=true
+        -Djoularjx.dumpFile=/agent/logs/recommender.txt
+        -Djoularjx.includes=tools.descartes.teastore.*
+    volumes:
+      - ../shared-libs/joularjx.jar:/agent/joularjx.jar
+      - ./joularjx-logs:/agent/logs
+      - ./joularjx-logs/config.properties:/agent/config.properties
+
+  webui:
+    environment:
+      JAVA_OPTS: >
+        -javaagent:/agent/joularjx.jar
+        -Djoularjx.dumpOnExit=true
+        -Djoularjx.dumpFile=/agent/logs/webui.txt
+        -Djoularjx.includes=tools.descartes.teastore.*
+    volumes:
+      - ../shared-libs/joularjx.jar:/agent/joularjx.jar
+      - ./joularjx-logs:/agent/logs
+      - ./joularjx-logs/config.properties:/agent/config.properties
