@@ -8,8 +8,7 @@ This setup instruments the [TeaStore microservices](https://github.com/Descartes
 TeaStore/
 ├── docker-compose_default.yaml
 ├── docker-compose_joularjx.yaml
-├── shared-libs/
-│   └── joularjx.jar
+├── joularjx.jar
 ├── joularjx-logs/
 │   └── config.properties
 ```
@@ -36,14 +35,24 @@ TeaStore/
 3. **Start the experiment setup:**
 
    ```bash
-   docker compose -f docker-compose_default.yaml -f docker-compose_joularjx.yaml up --build
+   docker compose -f docker-compose_default.yaml -f docker-compose_joularjx.yaml up --build -d
    ```
+
+   Check http://10.28.45.55:8080/tools.descartes.teastore.webui/
 
 4. **Stop the experiment:**
 
    ```bash
    docker compose -f docker-compose_default.yaml -f docker-compose_joularjx.yaml down
    ```
+
+5. **Check leftover container**
+
+   ```bash
+   docker ps
+   docker stop <container_name> # e.g. teastore-recommender-1
+   ```
+
 
 ## 📊 Retrieve Measurement Data
 
