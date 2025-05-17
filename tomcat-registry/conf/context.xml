@@ -11,7 +11,6 @@
     <Environment name="registryURL" value="http://localhost:8080/tools.descartes.teastore.registry/rest/services/"
     		type="java.lang.String" override="false"/>
   	<!-- Override hostName by using the IP, as reported by the OS. Use for KUBERNETES. -->
-		<Environment name="hostName" value="localhost" type="java.lang.String" override="false"/>
   	<Environment name="useHostIP" value="true"
   		type="java.lang.String" override="false"/>
 
