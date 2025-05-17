@@ -27,7 +27,7 @@ docker cp teastore-tomcat-webui-1:/usr/local/tomcat ./tomcat-webui
 ```
 
 > [!NOTE]  
-> The container `teastore-tomcat-db-1` is skipped on purpose since it is only database service. By the way to user and password for the DB is **teauser:teapassword** by default.
+> The container `teastore-tomcat-db-1` is skipped on purpose since it is only database service. By the way to user and password for the DB is **teauser:teapassword** by default. 
 
 ## ⚰️ Step 3: Shut Down All Docker Services Except DB
 
@@ -44,7 +44,12 @@ docker stop teastore-tomcat-webui-1
 
 ## Step 4: Configure local tomcats
 
-All configureation have been place inside each `conf/server.xml` and `conf/context.xml`.
+All configureation have been place inside each `conf/server.xml` and `conf/context.xml`. 
+
+```xml
+<Environment name="useHostIP" value="true"
+  		type="java.lang.String" override="false"/>
+```
 
 ### 🔌 Port Configuration Overview
 
