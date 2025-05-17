@@ -8,7 +8,7 @@
     <!-- Service registration settings, almost always required. -->
     <Environment name="servicePort" value="8081"
     	type="java.lang.String" override="false"/>
-    <Environment name="hostName" value="localhst" type="java.lang.String" override="false"/>
+    <Environment name="hostName" value="localhost" type="java.lang.String" override="false"/>
     <Environment name="registryURL" value="http://localhost:8080/tools.descartes.teastore.registry/rest/services/"
     		type="java.lang.String" override="false"/>
   	<!-- Override hostName by using the IP, as reported by the OS. Use for KUBERNETES. -->
