@@ -27,7 +27,7 @@ docker cp teastore-tomcat-webui-1:/usr/local/tomcat ./tomcat-webui
 ```
 
 > [!NOTE]  
-> The container `teastore-tomcat-db-1` is skipped on purpose since it is only database service.
+> The container `teastore-tomcat-db-1` is skipped on purpose since it is only database service. By the way to user and password for the DB is **teauser:teapassword** by default.
 
 ## ⚰️ Step 3: Shut Down All Docker Services Except DB
 
@@ -41,5 +41,37 @@ docker stop teastore-tomcat-recommender-1
 docker stop teastore-tomcat-image-1
 docker stop teastore-tomcat-webui-1
 ```
+
+## Step 4: Configure local tomcats
+
+All configureation have been place inside each `conf/server.xml` and `conf/context.xml`.
+
+### 🔌 Port Configuration Overview
+
+| Service       | HTTP Port | AJP Port | Shutdown Port |
+|---------------|-----------|----------|----------------|
+| Registry      | 8080      | 8100     | 8000           |
+| Persistence   | 8081      | 8101     | 8001           |
+| Auth          | 8082      | 8102     | 8002           |
+| Recommender   | 8083      | 8103     | 8003           |
+| Image         | 8084      | 8104     | 8004           |
+| WebUI         | 8085      | 8105     | 8005           |
+
+
+## Step 5: Start all tomcats (in order)
+
+1. `./tomcat-registry/bin/startup`
+2. `./tomcat-persistence/bin/startup`
+3. `./tomcat-auth/bin/startup`
+4. `./tomcat-recommender/bin/startup`
+5. `./tomcat-image/bin/startup`
+6. `./tomcat-webui/bin/startup`
+
+## Step 6: Open TeaStore
+
+- Visit http://localhost:8085/tools.descartes.teastore.webui/
+
+- Check status page on http://localhost:8085/tools.descartes.teastore.webui/status 
+
 
 
