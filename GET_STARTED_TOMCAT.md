@@ -10,12 +10,12 @@ From the **root of the TeaStore repository**, run:
 docker compose -p teastore-tomcat -f ./examples/docker/docker-compose_default.yaml up -d
 ```
 
-## 📦 Step 2: Extract pre-configured tomcat directories
+## 📦 Step 2: Extract pre-configured Tomcat directories
 
 Run the following commands to copy the internal `/usr/local/tomcat` folder to your local machine.
 
 > [!IMPORTANT]  
-> Those commands need to be execuited with a privileged user to work!
+> These commands need to be executed with a privileged user to work!
 
 ```bash
 docker cp teastore-tomcat-registry-1:/usr/local/tomcat ./tomcat-registry
@@ -27,7 +27,7 @@ docker cp teastore-tomcat-webui-1:/usr/local/tomcat ./tomcat-webui
 ```
 
 > [!NOTE]  
-> The container `teastore-tomcat-db-1` is skipped on purpose since it is only database service. By the way to user and password for the DB is **teauser:teapassword** by default. 
+> The container `teastore-tomcat-db-1` is skipped on purpose since it is only the database service. Default user and password for the DB: **teauser:teapassword**
 
 ## ⚰️ Step 3: Shut Down All Docker Services Except DB
 
@@ -42,9 +42,11 @@ docker stop teastore-tomcat-image-1
 docker stop teastore-tomcat-webui-1
 ```
 
-## Step 4: Configure local tomcats
+## 🛠️ Step 4: Configure local Tomcats
 
-All configureation have been place inside each `conf/server.xml` and `conf/context.xml`. 
+All configurations are placed inside each `conf/server.xml` and `conf/context.xml`.
+
+Example/Excerpt:
 
 ```xml
 <Environment name="useHostIP" value="true"
