@@ -1,0 +1,363 @@
+17-May-2025 06:45:23.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.7
+17-May-2025 06:45:23.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 8 2021 16:31:06 UTC
+17-May-2025 06:45:23.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.7.0
+17-May-2025 06:45:23.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+17-May-2025 06:45:23.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.167.4-microsoft-standard-WSL2
+17-May-2025 06:45:23.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-May-2025 06:45:23.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/openjdk-11
+17-May-2025 06:45:23.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.11+9
+17-May-2025 06:45:23.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-May-2025 06:45:23.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+17-May-2025 06:45:23.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+17-May-2025 06:45:23.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+17-May-2025 06:45:23.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-May-2025 06:45:23.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/kieker/agent/agent.jar
+17-May-2025 06:45:23.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+17-May-2025 06:45:23.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkieker.monitoring.configuration=/kieker/config/kieker.monitoring.properties
+17-May-2025 06:45:23.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Daj.weaving.verbose=false
+17-May-2025 06:45:23.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.aspectj.weaver.loadtime.configuration=aop.xml
+17-May-2025 06:45:23.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkieker.monitoring.skipDefaultAOPConfiguration=true
+17-May-2025 06:45:23.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Daj.weaving.loadersToSkip=java.net.URLClassLoader
+17-May-2025 06:45:23.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.jndi.ldap.object.disableEndpointIdentification=true
+17-May-2025 06:45:23.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-May-2025 06:45:23.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-May-2025 06:45:23.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+17-May-2025 06:45:23.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-May-2025 06:45:23.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+17-May-2025 06:45:23.070 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+17-May-2025 06:45:23.070 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+17-May-2025 06:45:23.072 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.30] using APR version [1.6.5].
+17-May-2025 06:45:23.072 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+17-May-2025 06:45:23.075 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1d  10 Sep 2019]
+17-May-2025 06:45:23.532 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-May-2025 06:45:23.626 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+17-May-2025 06:45:23.628 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [721] milliseconds
+17-May-2025 06:45:23.695 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-May-2025 06:45:23.696 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.7]
+17-May-2025 06:45:23.711 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/tools.descartes.teastore.webui.war]
+17-May-2025 06:45:26.224 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-May-2025 06:45:27.367 WARNING [main] org.glassfish.jersey.server.wadl.WadlFeature.configure JAXBContext implementation could not be found. WADL feature is disabled.
+17-May-2025 06:45:27.443 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/tools.descartes.teastore.webui.war] has finished in [3,732] ms
+17-May-2025 06:45:27.443 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/ROOT]
+17-May-2025 06:45:27.451 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/ROOT] has finished in [8] ms
+17-May-2025 06:45:27.452 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-May-2025 06:45:27.458 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+17-May-2025 06:45:27.460 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [4331] milliseconds
+17-May-2025 09:36:21.048 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server Version:        Apache Tomcat/10.0.7
+17-May-2025 09:36:21.050 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 8 2021 16:31:06 UTC
+17-May-2025 09:36:21.050 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.7.0
+17-May-2025 09:36:21.050 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+17-May-2025 09:36:21.050 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+17-May-2025 09:36:21.050 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architektur:           amd64
+17-May-2025 09:36:21.050 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-22
+17-May-2025 09:36:21.051 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.1+8-16
+17-May-2025 09:36:21.051 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Hersteller:        Oracle Corporation
+17-May-2025 09:36:21.051 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Exchange\Github\TeaStore-Experiment\tomcat-webui
+17-May-2025 09:36:21.051 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Exchange\Github\TeaStore-Experiment\tomcat-webui
+17-May-2025 09:36:21.055 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Exchange\Github\TeaStore-Experiment\tomcat-webui\conf\logging.properties
+17-May-2025 09:36:21.055 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-May-2025 09:36:21.055 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-May-2025 09:36:21.055 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-May-2025 09:36:21.055 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+17-May-2025 09:36:21.055 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+17-May-2025 09:36:21.056 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+17-May-2025 09:36:21.056 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+17-May-2025 09:36:21.056 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+17-May-2025 09:36:21.056 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-May-2025 09:36:21.056 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-May-2025 09:36:21.056 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Exchange\Github\TeaStore-Experiment\tomcat-webui
+17-May-2025 09:36:21.056 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Exchange\Github\TeaStore-Experiment\tomcat-webui
+17-May-2025 09:36:21.057 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Exchange\Github\TeaStore-Experiment\tomcat-webui\temp
+17-May-2025 09:36:21.060 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-22\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python313\Scripts\;C:\Python313\;C:\tools\Anaconda3\Scripts\;C:\tools\Anaconda3\;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Adoptium\jdk-21.0.3.9-hotspot\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Program Files\PuTTY\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Calibre2\;C:\Program Files\gs\gs10.03.0\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.9\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Pandoc\;C:\Program Files\Docker\Docker\resources\bin;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Users\micro\.pyenv\pyenv-win\bin;C:\Users\micro\.pyenv\pyenv-win\shims;C:\Users\micro\AppData\Local\Microsoft\WindowsApps;C:\Users\micro\AppData\Local\GitHubDesktop\bin;C:\Users\micro\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Program Files\Oracle\VirtualBox;C:\Users\micro\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.]
+17-May-2025 09:36:21.239 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-8080"]
+17-May-2025 09:36:21.253 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["ajp-nio-127.0.0.1-8009"]
+17-May-2025 09:36:21.254 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [312] milliseconds
+17-May-2025 09:36:21.293 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-May-2025 09:36:21.293 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.7]
+17-May-2025 09:36:21.310 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Exchange\Github\TeaStore-Experiment\tomcat-webui\webapps\tools.descartes.teastore.webui.war]
+17-May-2025 09:36:24.482 INFORMATION [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-May-2025 09:36:29.052 WARNUNG [main] org.glassfish.jersey.server.wadl.WadlFeature.configure JAXBContext implementation could not be found. WADL feature is disabled.
+17-May-2025 09:36:29.287 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Exchange\Github\TeaStore-Experiment\tomcat-webui\webapps\tools.descartes.teastore.webui.war] has finished in [7.977] ms
+17-May-2025 09:36:29.287 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Exchange\Github\TeaStore-Experiment\tomcat-webui\webapps\ROOT]
+17-May-2025 09:36:29.306 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Exchange\Github\TeaStore-Experiment\tomcat-webui\webapps\ROOT] has finished in [19] ms
+17-May-2025 09:36:29.307 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-May-2025 09:36:29.370 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+17-May-2025 09:36:29.375 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [8118] milliseconds
+17-May-2025 09:36:33.242 INFORMATION [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-May-2025 09:36:33.250 INFORMATION [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+17-May-2025 09:36:33.257 INFORMATION [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-May-2025 09:36:33.261 WARNUNG [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches Failed to clear soft references from ObjectStreamClass$Caches for web application [ROOT]
+	java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:2363)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:2338)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1706)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1634)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:429)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5464)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1414)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1403)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:988)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1414)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1403)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:988)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:502)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:986)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.startup.Catalina.stop(Catalina.java:872)
+		at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:1011)
+17-May-2025 09:36:33.276 WARNUNG [Thread-6] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches Failed to clear soft references from ObjectStreamClass$Caches for web application [tools.descartes.teastore.webui]
+	java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:2363)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:2338)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1706)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1634)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:429)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5464)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1414)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1403)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:988)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1414)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1403)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:988)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:502)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:986)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.startup.Catalina.stop(Catalina.java:872)
+		at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:1011)
+17-May-2025 09:36:33.280 INFORMATION [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-May-2025 09:36:33.324 INFORMATION [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+17-May-2025 09:36:33.366 INFORMATION [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-May-2025 09:36:33.367 INFORMATION [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+17-May-2025 09:38:41.692 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server Version:        Apache Tomcat/10.0.7
+17-May-2025 09:38:41.694 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 8 2021 16:31:06 UTC
+17-May-2025 09:38:41.694 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.7.0
+17-May-2025 09:38:41.694 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+17-May-2025 09:38:41.694 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+17-May-2025 09:38:41.694 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architektur:           amd64
+17-May-2025 09:38:41.694 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-22
+17-May-2025 09:38:41.695 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.1+8-16
+17-May-2025 09:38:41.695 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Hersteller:        Oracle Corporation
+17-May-2025 09:38:41.695 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Exchange\Github\TeaStore-Experiment\tomcat-webui
+17-May-2025 09:38:41.695 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Exchange\Github\TeaStore-Experiment\tomcat-webui
+17-May-2025 09:38:41.699 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Exchange\Github\TeaStore-Experiment\tomcat-webui\conf\logging.properties
+17-May-2025 09:38:41.699 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-May-2025 09:38:41.699 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-May-2025 09:38:41.699 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-May-2025 09:38:41.699 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+17-May-2025 09:38:41.699 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+17-May-2025 09:38:41.700 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+17-May-2025 09:38:41.700 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+17-May-2025 09:38:41.700 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+17-May-2025 09:38:41.700 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-May-2025 09:38:41.700 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-May-2025 09:38:41.700 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Exchange\Github\TeaStore-Experiment\tomcat-webui
+17-May-2025 09:38:41.700 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Exchange\Github\TeaStore-Experiment\tomcat-webui
+17-May-2025 09:38:41.700 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Exchange\Github\TeaStore-Experiment\tomcat-webui\temp
+17-May-2025 09:38:41.704 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-22\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python313\Scripts\;C:\Python313\;C:\tools\Anaconda3\Scripts\;C:\tools\Anaconda3\;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Adoptium\jdk-21.0.3.9-hotspot\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Program Files\PuTTY\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Calibre2\;C:\Program Files\gs\gs10.03.0\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.9\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Pandoc\;C:\Program Files\Docker\Docker\resources\bin;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Users\micro\.pyenv\pyenv-win\bin;C:\Users\micro\.pyenv\pyenv-win\shims;C:\Users\micro\AppData\Local\Microsoft\WindowsApps;C:\Users\micro\AppData\Local\GitHubDesktop\bin;C:\Users\micro\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Program Files\Oracle\VirtualBox;C:\Users\micro\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.]
+17-May-2025 09:38:41.874 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-8080"]
+17-May-2025 09:38:41.886 SCHWERWIEGEND [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Konnte Komponente [Connector[HTTP/1.1-8080]] nicht initialisieren
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1054)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:561)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1049)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:747)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:769)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:243)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:198)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1179)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1192)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:580)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:82)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1051)
+		... 11 more
+17-May-2025 09:38:41.889 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["ajp-nio-127.0.0.1-8009"]
+17-May-2025 09:38:41.890 SCHWERWIEGEND [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Konnte Komponente [Connector[AJP/1.3-8009]] nicht initialisieren
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1054)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:561)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1049)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:747)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:769)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:243)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:198)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1179)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1192)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:580)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1051)
+		... 11 more
+17-May-2025 09:38:41.891 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [308] milliseconds
+17-May-2025 09:38:41.921 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-May-2025 09:38:41.921 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.7]
+17-May-2025 09:38:41.934 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Exchange\Github\TeaStore-Experiment\tomcat-webui\webapps\tools.descartes.teastore.webui.war]
+17-May-2025 09:38:42.302 INFORMATION [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-May-2025 09:38:46.162 WARNUNG [main] org.glassfish.jersey.server.wadl.WadlFeature.configure JAXBContext implementation could not be found. WADL feature is disabled.
+17-May-2025 09:38:46.375 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Exchange\Github\TeaStore-Experiment\tomcat-webui\webapps\tools.descartes.teastore.webui.war] has finished in [4.441] ms
+17-May-2025 09:38:46.376 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Exchange\Github\TeaStore-Experiment\tomcat-webui\webapps\ROOT]
+17-May-2025 09:38:46.388 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Exchange\Github\TeaStore-Experiment\tomcat-webui\webapps\ROOT] has finished in [12] ms
+17-May-2025 09:38:46.390 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [4497] milliseconds
+17-May-2025 09:38:46.390 SCHWERWIEGEND [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.Net.bind(Net.java:554)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:390)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:277)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:584)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:887)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:833)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+17-May-2025 09:38:46.390 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-May-2025 09:38:46.391 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+17-May-2025 09:38:46.391 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-May-2025 09:38:46.394 WARNUNG [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches Failed to clear soft references from ObjectStreamClass$Caches for web application [ROOT]
+	java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:2363)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:2338)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1706)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1634)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:429)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5464)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1414)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1403)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:988)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1414)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1403)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:988)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:502)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:986)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.startup.Catalina.stop(Catalina.java:872)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:834)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+17-May-2025 09:38:46.433 WARNUNG [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tools.descartes.teastore.webui] appears to have started a thread named [jaeger.RemoteReporter-QueueProcessor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+ java.base/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:4013)
+ java.base/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3961)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1707)
+ java.base/java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:420)
+ io.jaegertracing.internal.reporters.RemoteReporter$QueueProcessor.run(RemoteReporter.java:170)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+17-May-2025 09:38:46.433 WARNUNG [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tools.descartes.teastore.webui] appears to have started a thread named [jaeger.RemoteReporter-FlushTimer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:375)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:568)
+ java.base/java.util.TimerThread.run(Timer.java:521)
+17-May-2025 09:38:46.434 WARNUNG [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [tools.descartes.teastore.webui] appears to have started a thread named [Thread-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+ kieker.monitoring.queue.takestrategy.SCBlockingTakeStrategy.waitPoll(SCBlockingTakeStrategy.java:63)
+ kieker.monitoring.queue.BlockingQueueDecorator.take(BlockingQueueDecorator.java:68)
+ kieker.monitoring.writer.MonitoringWriterThread.run(MonitoringWriterThread.java:66)
+17-May-2025 09:38:46.434 WARNUNG [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches Failed to clear soft references from ObjectStreamClass$Caches for web application [tools.descartes.teastore.webui]
+	java.lang.ClassCastException: class java.io.ObjectStreamClass$Caches$1 cannot be cast to class java.util.Map (java.io.ObjectStreamClass$Caches$1 and java.util.Map are in module java.base of loader 'bootstrap')
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearCache(WebappClassLoaderBase.java:2363)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesObjectStreamClassCaches(WebappClassLoaderBase.java:2338)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1706)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1634)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:429)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5464)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1414)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1403)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:988)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1414)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1403)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:988)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:502)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:986)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.startup.Catalina.stop(Catalina.java:872)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:834)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+17-May-2025 09:38:46.436 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-May-2025 09:38:46.437 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-May-2025 09:38:46.437 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+17-May-2025 09:38:46.438 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+17-May-2025 09:38:46.441 INFORMATION [Thread-3] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [io.jaegertracing.internal.reporters.RemoteReporter$CloseCommand]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [io.jaegertracing.internal.reporters.RemoteReporter$CloseCommand]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1464)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1452)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1291)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1252)
+		at io.jaegertracing.internal.reporters.RemoteReporter.close(RemoteReporter.java:91)
+		at io.jaegertracing.internal.JaegerTracer.close(JaegerTracer.java:216)
+		at io.jaegertracing.internal.JaegerTracer$1.run(JaegerTracer.java:130)

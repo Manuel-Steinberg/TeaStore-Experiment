@@ -1,0 +1,77 @@
+17-May-2025 06:45:23.030 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.7
+17-May-2025 06:45:23.034 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 8 2021 16:31:06 UTC
+17-May-2025 06:45:23.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.7.0
+17-May-2025 06:45:23.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+17-May-2025 06:45:23.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.167.4-microsoft-standard-WSL2
+17-May-2025 06:45:23.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-May-2025 06:45:23.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/openjdk-11
+17-May-2025 06:45:23.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.11+9
+17-May-2025 06:45:23.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-May-2025 06:45:23.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+17-May-2025 06:45:23.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+17-May-2025 06:45:23.052 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+17-May-2025 06:45:23.052 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-May-2025 06:45:23.052 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/kieker/agent/agent.jar
+17-May-2025 06:45:23.052 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+17-May-2025 06:45:23.052 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkieker.monitoring.configuration=/kieker/config/kieker.monitoring.properties
+17-May-2025 06:45:23.052 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Daj.weaving.verbose=false
+17-May-2025 06:45:23.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.aspectj.weaver.loadtime.configuration=aop.xml
+17-May-2025 06:45:23.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dkieker.monitoring.skipDefaultAOPConfiguration=true
+17-May-2025 06:45:23.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Daj.weaving.loadersToSkip=java.net.URLClassLoader
+17-May-2025 06:45:23.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.jndi.ldap.object.disableEndpointIdentification=true
+17-May-2025 06:45:23.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-May-2025 06:45:23.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-May-2025 06:45:23.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+17-May-2025 06:45:23.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-May-2025 06:45:23.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+17-May-2025 06:45:23.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+17-May-2025 06:45:23.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+17-May-2025 06:45:23.065 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.30] using APR version [1.6.5].
+17-May-2025 06:45:23.065 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+17-May-2025 06:45:23.073 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1d  10 Sep 2019]
+17-May-2025 06:45:23.505 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-May-2025 06:45:23.557 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+17-May-2025 06:45:23.584 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [759] milliseconds
+17-May-2025 06:45:23.658 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-May-2025 06:45:23.658 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.7]
+17-May-2025 06:45:23.672 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/usr/local/tomcat/webapps/tools.descartes.teastore.registry.war]
+17-May-2025 06:45:24.139 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-May-2025 06:45:24.800 WARNING [main] org.glassfish.jersey.server.wadl.WadlFeature.configure JAX-B API not found . WADL feature is disabled.
+17-May-2025 06:45:25.493 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/usr/local/tomcat/webapps/tools.descartes.teastore.registry.war] has finished in [1,813] ms
+17-May-2025 06:45:25.497 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-May-2025 06:45:25.516 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+17-May-2025 06:45:25.538 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1950] milliseconds
+17-May-2025 09:37:19.084 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server Version:        Apache Tomcat/10.0.7
+17-May-2025 09:37:19.087 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 8 2021 16:31:06 UTC
+17-May-2025 09:37:19.087 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.7.0
+17-May-2025 09:37:19.087 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+17-May-2025 09:37:19.087 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+17-May-2025 09:37:19.088 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architektur:           amd64
+17-May-2025 09:37:19.088 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-22
+17-May-2025 09:37:19.088 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.1+8-16
+17-May-2025 09:37:19.088 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Hersteller:        Oracle Corporation
+17-May-2025 09:37:19.088 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Exchange\Github\TeaStore-Experiment\tomcat-registry
+17-May-2025 09:37:19.088 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Exchange\Github\TeaStore-Experiment\tomcat-registry
+17-May-2025 09:37:19.092 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Exchange\Github\TeaStore-Experiment\tomcat-registry\conf\logging.properties
+17-May-2025 09:37:19.092 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-May-2025 09:37:19.092 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-May-2025 09:37:19.092 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-May-2025 09:37:19.092 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+17-May-2025 09:37:19.092 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+17-May-2025 09:37:19.092 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+17-May-2025 09:37:19.093 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+17-May-2025 09:37:19.093 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+17-May-2025 09:37:19.093 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-May-2025 09:37:19.093 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-May-2025 09:37:19.093 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Exchange\Github\TeaStore-Experiment\tomcat-registry
+17-May-2025 09:37:19.093 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Exchange\Github\TeaStore-Experiment\tomcat-registry
+17-May-2025 09:37:19.093 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Exchange\Github\TeaStore-Experiment\tomcat-registry\temp
+17-May-2025 09:37:19.097 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-22\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python313\Scripts\;C:\Python313\;C:\tools\Anaconda3\Scripts\;C:\tools\Anaconda3\;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Adoptium\jdk-21.0.3.9-hotspot\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Program Files\PuTTY\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Calibre2\;C:\Program Files\gs\gs10.03.0\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.9\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Pandoc\;C:\Program Files\Docker\Docker\resources\bin;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Users\micro\.pyenv\pyenv-win\bin;C:\Users\micro\.pyenv\pyenv-win\shims;C:\Users\micro\AppData\Local\Microsoft\WindowsApps;C:\Users\micro\AppData\Local\GitHubDesktop\bin;C:\Users\micro\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Program Files\Oracle\VirtualBox;C:\Users\micro\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.]
+17-May-2025 09:37:19.261 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-8080"]
+17-May-2025 09:37:19.275 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["ajp-nio-127.0.0.1-8009"]
+17-May-2025 09:37:19.276 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [296] milliseconds
+17-May-2025 09:37:19.306 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-May-2025 09:37:19.307 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.7]
+17-May-2025 09:37:19.313 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-May-2025 09:37:19.370 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-127.0.0.1-8009"]
+17-May-2025 09:37:19.373 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [95] milliseconds
