@@ -6,7 +6,7 @@
 	<JarScanner scanClassPath="false" />
 	<Loader delegate="true"/>
     <!-- Service registration settings, almost always required. -->
-    <Environment name="servicePort" value="8083"
+    <Environment name="servicePort" value="8084"
     	type="java.lang.String" override="false"/>
     <Environment name="hostName" value="image" type="java.lang.String" override="false"/>
     <Environment name="registryURL" value="http://localhost:8080/tools.descartes.teastore.registry/rest/services/"
